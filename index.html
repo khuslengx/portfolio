@@ -7,6 +7,8 @@
     <title>Khuslen Gantulga</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    
 </head>
 <body>
     <header class="header">
@@ -14,52 +16,57 @@
             <img src="avatar.jpg" alt="Khuslen Gantulga Avatar">
         </div>
         <div class="info">
-            <h1>Khuslen Gantulga</h1>
-            <p>Data Analyst</p>
+            <h1 data-en="Khuslen Gantulga" data-de="Khuslen Gantulga">Khuslen Gantulga</h1>
+            <p data-en="Data Analyst" data-de="Datenanalyst">Data Analyst</p>
             <div class="socials">
                 <a href="https://www.xing.com/profile/Khuslen_Gantulga" target="_blank"><img src="xing-icon.png" alt="Xing Profile"></a>
-                <a href="cv.html" target="_blank"><img src="cv-icon.png" alt="CV"></a>
+                <a id="cv-link" href="cv-en.html" target="_blank"><img src="cv-icon.png" alt="CV"></a>
             </div>
+        </div>
+        <!-- Language selection -->
+        <div class="language-switch">
+            <button id="en-btn">English</button>
+            <button id="de-btn">Deutsch</button>
         </div>
     </header>
 
-    
     <main>
         <div class="oldprojects">
-            <h1>Old Projects</h1>
+            <h1 data-en="Old Projects" data-de="Alte Projekte">Old Projects</h1>
         </div>
         <section class="projects">
             <div class="project">
-                <h3>Partimize</h3>
-                <p>Power Apps Integration with Power BI</p>
-                <p>Introducing my latest creation, a data-driven financial planning tool built to help businesses optimize their budgeting and forecasting processes for greater accuracy and efficiency.</p>
-                <p>This tool leverages advanced analytics to offer actionable insights, empowering users to make informed financial decisions with confidence. Whether you're managing cash flow, projecting future earnings, or allocating resources, this platform adapts to your needs.</p>
-                <p>It’s more than just a tool—it's a financial strategy essential.</p>
+                <h3 data-en="Partimize" data-de="Partimize">Partimize</h3>
+                <p data-en="Power Apps Integration with Power BI" data-de="Power Apps-Integration mit Power BI">Power Apps Integration with Power BI</p>
+                <p data-en="Introducing my latest creation, a data-driven financial planning tool built to help businesses optimize their budgeting and forecasting processes for greater accuracy and efficiency. This tool leverages advanced analytics to offer actionable insights, empowering users to make informed financial decisions with confidence. Whether you're managing cash flow, projecting future earnings, or allocating resources, this platform adapts to your needs. It’s more than just a tool—it's a financial strategy essential."
+                   data-de="Hier ist mein neuestes Werk, ein datengetriebenes Finanzplanungstool, das Unternehmen dabei hilft, ihre Budgetierungs- und Prognoseprozesse für mehr Genauigkeit und Effizienz zu optimieren. Dieses Tool nutzt fortschrittliche Analysen, um umsetzbare Erkenntnisse zu liefern und Benutzern zu ermöglichen, fundierte Finanzentscheidungen zu treffen. Egal, ob Sie den Cashflow verwalten, zukünftige Gewinne prognostizieren oder Ressourcen zuweisen, diese Plattform passt sich Ihren Bedürfnissen an. Es ist mehr als nur ein Werkzeug – es ist eine wesentliche Finanzstrategie.">
+                   Introducing my latest creation, a data-driven financial planning tool...</p>
             </div>
         </section>
-        <!--
+        
         <section class="app-preview">
             <img src="project2.png" alt="Partimize Project Screenshot">
             <img src="project1.png" alt="Partimize Project Screenshot">
         </section>
-        -->
-        <section class="projects">
-            <div class="project">
-                <h3>Data Optimizer</h3>
-                <p>Python Application for Data Cleaning and KPI Calculation</p>
-                <p>We developed an intuitive user interface using Tkinter, which integrates powerful tools for data cleaning and KPI calculation, streamlining workflows for business intelligence tasks.</p>
-                <p>This application utilizes NumPy, Pandas, and Openpyxl for efficient data processing and optimization, providing a seamless experience for users handling large datasets. It automates routine tasks like data validation, missing value treatment, and performance tracking.</p>
-                <p>More than just an interface, it's an all-in-one data management solution.</p>
-            </div>
-        </section>
-
         
         <section class="projects">
             <div class="project">
-                <h3>Final Thesis</h3>
-                <p>Driver fatigue is a significant cause of road accidents. This project presents a real-time driver drowsiness alert system using Raspberry Pi, sensors, and computer vision (OpenCV with Python).</p>
-                <p>The system monitors the driver’s face and eyes through a camera, detecting eye closure. If the driver’s eyes remain closed for more than 3 seconds while the vehicle is moving, a buzzer alerts the driver.</p>
-                <p>OpenCV is used to detect facial features and track eye movements, providing a cost-effective solution for reducing drowsiness-related accidents.</p>
+                <h3 data-en="Data Optimizer" data-de="Datenoptimierer">Data Optimizer</h3>
+                <p data-en="Python Application for Data Cleaning and KPI Calculation" 
+                   data-de="Python-Anwendung zur Datenbereinigung und KPI-Berechnung">
+                   Python Application for Data Cleaning and KPI Calculation</p>
+                <p data-en="We developed an intuitive user interface using Tkinter, which integrates powerful tools for data cleaning and KPI calculation, streamlining workflows for business intelligence tasks. This application utilizes NumPy, Pandas, and Openpyxl for efficient data processing and optimization, providing a seamless experience for users handling large datasets. It automates routine tasks like data validation, missing value treatment, and performance tracking. More than just an interface, it's an all-in-one data management solution."
+                   data-de="Wir haben eine intuitive Benutzeroberfläche mit Tkinter entwickelt, die leistungsstarke Werkzeuge für die Datenbereinigung und KPI-Berechnung integriert und so Arbeitsabläufe für Business-Intelligence-Aufgaben optimiert. Diese Anwendung verwendet NumPy, Pandas und Openpyxl für eine effiziente Datenverarbeitung und -optimierung und bietet eine nahtlose Erfahrung für Benutzer, die mit großen Datensätzen arbeiten. Es automatisiert Routineaufgaben wie die Datenvalidierung, die Behandlung fehlender Werte und die Leistungserfassung. Mehr als nur eine Benutzeroberfläche – es ist eine All-in-One-Datenverwaltungslösung.">
+                   We developed an intuitive user interface using Tkinter...</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <h3 data-en="Final Thesis" data-de="Abschlussarbeit">Final Thesis</h3>
+                <p data-en="Driver fatigue is a significant cause of road accidents. This project presents a real-time driver drowsiness alert system using Raspberry Pi, sensors, and computer vision (OpenCV with Python). The system monitors the driver’s face and eyes through a camera, detecting eye closure. If the driver’s eyes remain closed for more than 3 seconds while the vehicle is moving, a buzzer alerts the driver. OpenCV is used to detect facial features and track eye movements, providing a cost-effective solution for reducing drowsiness-related accidents."
+                   data-de="Fahrermüdung ist eine der Hauptursachen für Verkehrsunfälle. Dieses Projekt stellt ein Echtzeit-Warnsystem zur Erkennung von Fahrermüdigkeit mit Raspberry Pi, Sensoren und Computer Vision (OpenCV mit Python) vor. Das System überwacht das Gesicht und die Augen des Fahrers über eine Kamera und erkennt das Schließen der Augen. Wenn die Augen des Fahrers während der Fahrt länger als 3 Sekunden geschlossen bleiben, ertönt ein Summer, der den Fahrer warnt. OpenCV wird verwendet, um Gesichtszüge zu erkennen und Augenbewegungen zu verfolgen, und bietet eine kostengünstige Lösung zur Reduzierung von Müdigkeitsunfällen.">
+                   Driver fatigue is a significant cause of road accidents...</p>
             </div>
         </section>
 
@@ -70,7 +77,40 @@
     </main>
 
     <footer class="footer">
-        <p>© 2024 Khuslen Gantulga. All rights reserved.</p>
+        <p data-en="© 2024 Khuslen Gantulga. All rights reserved." 
+           data-de="© 2024 Khuslen Gantulga. Alle Rechte vorbehalten.">
+           © 2024 Khuslen Gantulga. All rights reserved.</p>
     </footer>
+
+    <!-- JavaScript to handle language switch -->
+    <script>
+        const enBtn = document.getElementById('en-btn');
+        const deBtn = document.getElementById('de-btn');
+        const cvLink = document.getElementById('cv-link');
+        const textElements = document.querySelectorAll('[data-en]');
+
+        enBtn.addEventListener('click', () => {
+            changeLanguage('en');
+        });
+
+        deBtn.addEventListener('click', () => {
+            changeLanguage('de');
+        });
+
+        function changeLanguage(language) {
+            textElements.forEach(element => {
+                element.textContent = element.getAttribute(`data-${language}`);
+            });
+
+            if (language === 'en') {
+                cvLink.href = 'cv-en.html';
+            } else if (language === 'de') {
+                cvLink.href = 'cv-de.html';
+            }
+        }
+
+        // Set default language to English
+        changeLanguage('en');
+    </script>
 </body>
 </html>

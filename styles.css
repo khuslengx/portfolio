@@ -124,3 +124,23 @@ main {
         max-width: 100%;
     }
 }
+.language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-switch button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.language-switch button:hover {
+    background-color: #0056b3;
+}
